@@ -5,11 +5,16 @@
 <h1>Tao's blog</h1>
 <h3>My first Rails application</h3>
 
+<%= form_tag articles_path, :method => 'get' do %>
+  <p>
+    <%= text_field_tag :search, params[:search], placeholder: "Search here" %>
+    <%= submit_tag "Search", :name => nil %>
+  </p>
+<% end %>
   <%= render @articles %>
 
 <br>
 
-<%= link_to 'New Article', new_article_path %>
+<%= link_to 'New Article', new_article_path %> <br/>
 
 </div>
-
