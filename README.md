@@ -4,7 +4,7 @@
 
 Submitted by: **Tao Nhu**
 
-Time spent: **8** hours spent in total
+Time spent: **10** hours spent in total
 
 URL: **https://arcane-inlet-79413.herokuapp.com/articles**
 
